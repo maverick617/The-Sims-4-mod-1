@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Sims 4 local cache files
+localthumbcache.package
+avatarcache.package
+onlinethumbnailcache/
+
+# Temporary exports
+*.tmp
+*.bak
+*.backup
+
+# Large editable art files can be committed intentionally, but keep scratch files out.
+*.psb
+
+# Python helper environments
+.venv/
+__pycache__/
+*.pyc
+
+# Node helper environments
+node_modules/
+
+# Local test builds
+packages/local/
